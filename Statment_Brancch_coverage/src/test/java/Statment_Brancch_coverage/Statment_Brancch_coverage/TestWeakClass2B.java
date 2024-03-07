@@ -20,8 +20,8 @@ public class TestWeakClass2B {
     public void FullBranchCoverageWithoutExp2() {
 
     	WeakClass obj = new WeakClass();
-        double result = obj.weakMethod2(2,5);
+        double result = obj.weakMethod2(8,5);
 
-        assertEquals(10, result, 0.0);
+        assertEquals(40, result, 0.0);
     }
 }

@@ -8,7 +8,7 @@ public class TestWeakClass1B {
 
 	 /***Test Set for 100% Statement Coverage without Error Exposure***/
 
-    @Test
+  @Test
     public void FullCoverageWithoutExp1() {
         WeakClass weakClass = new WeakClass();
         double result = weakClass.weakMethod1(8, 2);

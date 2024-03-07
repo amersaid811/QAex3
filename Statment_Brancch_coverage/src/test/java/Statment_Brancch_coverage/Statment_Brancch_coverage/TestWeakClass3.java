@@ -13,7 +13,12 @@ public class TestWeakClass3 {
         assertEquals(20, result, 0.0);
     }
     
-    
+    @Test
+    public void FullStatementCovLessBranchCov2() {
+        WeakClass obj = new WeakClass();
+        double result = obj.weakMethod3(5,5);
+        assertEquals(1, result, 0.0);
+    }
 
 
 }
